@@ -1,0 +1,96 @@
+/* 全体のスタイル */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* タスク入力エリア */
+.addTask {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.addTask h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* フォームスタイル */
+.form-group {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* タスク一覧エリア */
+.taskList {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskList h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* タスクアイテム */
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.task-name {
+  font-weight: bold;
+  min-width: 200px;
+  font-size: 18px;
+}
+
+.task-date, .task-time {
+  color: #666;
+  font-size: 14px;
+}
+
+#taskContainer {
+  margin-top: 20px;
+}
+
+
+
